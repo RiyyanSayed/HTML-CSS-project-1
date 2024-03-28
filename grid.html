@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hello grid</title>
+  </head>
+  <body>
+    <div>
+      <div style="display: grid; grid-template-columns: 100px 100px">
+        <div style="background-color: lightgreen">div 1</div>
+        <div style="background-color: lightpink">div 2</div>
+      </div>
+
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 100px 100px;
+          margin-top: 10px;
+        "
+      >
+        <div style="background-color: lightgreen">div 1</div>
+        <div style="background-color: lightpink">div 2</div>
+      </div>
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          margin-top: 10px;
+          column-gap: 10px;
+          row-gap: 10px;
+          height: 1000px;
+        "
+      >
+        <div style="background-color: lightgreen">div 1</div>
+        <div style="background-color: lightpink">div 2</div>
+        <div style="background-color: lightgreen">div 1</div>
+        <div style="background-color: lightpink">div 2</div>
+        <div style="background-color: lightgreen">div 1</div>
+        <div style="background-color: lightpink">div 2</div>
+      </div>
+    </div>
+  </body>
+</html>
